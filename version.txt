@@ -1,4 +1,4 @@
-1.2.5.1
+1.2.5.9
 https://twitter.com/hashtag/OpenTween?src=hash
 
 （これはアップデート情報ではありません）

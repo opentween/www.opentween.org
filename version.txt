@@ -1,5 +1,11 @@
-2.0.0.0
+2.0.1.0
 https://osdn.jp/projects/opentween/releases/p12655
+
+==== Ver 2.0.1(2018/06/13)
+ * Windows 8.1 以降で OpenTween v2.0.0 を使用している方は v2.0.1 へのアップデートは不要です
+
+ * FIX: 起動時に .NET Framework 4.7.2 のバージョンチェックが正しく行われるように修正
+ * FIX: Windows 7 で TLS1.1/TLS1.2 が有効にならない不具合を修正 (thx @hetaroh!)
 
 ==== Ver 2.0.0, Ver 1.4.2(2018/06/11)
  * OpenTween v2.0.0 から .NET Framework 4.7.2 以上が必須になります

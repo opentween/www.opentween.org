@@ -1,0 +1,575 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MoMA Scan Results</title>
+<link rel="stylesheet" type="text/css" href="Media/moma.css" />
+<script type="text/ecmascript" src="Media/moma.js"></script>
+</head>
+<body>
+    <div class='header'>
+        <div class='headertext'>MoMA Scan Results</div>
+    </div>
+    <div class='wrapper'>
+    <div class='legend'>
+      <div>
+        Scan Date: 2012/04/14 11:36:56<br/>
+        MoMA Definitions: Mono 2.8 (4.0 Profile)<br/><br/>
+        For descriptions of issues, see <a href='http://www.mono-project.com/MoMA_-_Issue_Descriptions'>MoMA Issue Descriptions</a>.
+      </div>
+    </div>
+    <table class='results-table'>
+      <thead>
+        <tr>
+          <th scope='col'></th>
+          <th scope='col'></th>
+          <th scope='col'>Assembly</th>
+          <th scope='col'>Version</th>
+          <th scope='col'>Missing</th>
+          <th scope='col'>Not Implemented</th>
+          <th scope='col'>Todo</th>
+          <th scope='col'>P/Invoke</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class='errorrow' onclick='toggle("el1", "img1")'>
+          <td style='width: 10px'><img id='img1' src='Media/plus.png' /></td>
+          <td style='width: 16px'><img src='Media/fail.png' /></td>
+          <td>OpenTween.exe</td>
+          <td>0.1.0.0</td>
+          <td>10</td>
+          <td>3</td>
+          <td>44</td>
+          <td>44</td>
+        </tr>
+        <tr id='el1' class='errorlist' style='display: none'>
+          <td></td>
+          <td colspan='7'>
+            <table cellpadding='2' cellspacing='0' width='100%' class='inner-results'>
+              <tr class='inner-header'>
+              <td>Calling Method</td>
+              <td colspan='2'>Method Missing from Mono</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr>
+              <td>void DispSelectedPost (bool)</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td colspan='2'>void LinkLabel.set_TabStop (bool)</td>
+              </tr>
+              <tr class='inner-header'>
+              <td>Calling Method</td>
+              <td colspan='2'>Method that Throws NotImplementedException</td>
+              </tr>
+              <tr>
+              <td>void SelectAllToolStripMenuItem_Click (Object, EventArgs)</td>
+              <td colspan='2'>void HtmlDocument.ExecCommand (string, bool, Object)</td>
+              </tr>
+              <tr>
+              <td>bool CommonKeyDown (Keys, TweenMain/FocusedControl, TweenMain/ModifierState)</td>
+              <td colspan='2'>void HtmlDocument.ExecCommand (string, bool, Object)</td>
+              </tr>
+              <tr>
+              <td>void SelectionAllContextMenuItem_Click (Object, EventArgs)</td>
+              <td colspan='2'>void HtmlDocument.ExecCommand (string, bool, Object)</td>
+              </tr>
+              <tr class='inner-header'>
+              <td>Calling Method</td>
+              <td>Method with [MonoTodo]</td>
+              <td>Reason</td>
+              </tr>
+              <tr>
+              <td>void RefreshProxySettings (string)</td>
+              <td>IWebProxy WebRequest.GetSystemWebProxy ()</td>
+              <td>Look in other places for proxy config info</td>
+              </tr>
+              <tr>
+              <td>bool IsNetworkAvailable ()</td>
+              <td>bool NetworkInterface.GetIsNetworkAvailable ()</td>
+              <td>Always returns true</td>
+              </tr>
+              <tr>
+              <td>Image CheckValidImage (Image, int, int)</td>
+              <td>void Graphics.set_PixelOffsetMode (PixelOffsetMode)</td>
+              <td>This property does not do anything when used with libgdiplus.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser..ctor ()</td>
+              <td>WebBrowser control is only supported on Linux/Windows. No support for OSX.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser..ctor ()</td>
+              <td>WebBrowser control is only supported on Linux/Windows. No support for OSX.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser.set_IsWebBrowserContextMenuEnabled (bool)</td>
+              <td>Stub, not implemented</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser.set_WebBrowserShortcutsEnabled (bool)</td>
+              <td>Stub, not implemented</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser.set_IsWebBrowserContextMenuEnabled (bool)</td>
+              <td>Stub, not implemented</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser.set_WebBrowserShortcutsEnabled (bool)</td>
+              <td>Stub, not implemented</td>
+              </tr>
+              <tr>
+              <td>void AddItem (string)</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void AddItem (string)</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>String> GetItemList ()</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>String> GetItemList ()</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>int get_ItemCount ()</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void TextId_KeyDown (Object, KeyEventArgs)</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void TextId_KeyDown (Object, KeyEventArgs)</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void TextBox.set_AutoCompleteMode (AutoCompleteMode)</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void TextBox.set_AutoCompleteSource (AutoCompleteSource)</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void .ctor (String>, string)</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser..ctor ()</td>
+              <td>WebBrowser control is only supported on Linux/Windows. No support for OSX.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser..ctor ()</td>
+              <td>WebBrowser control is only supported on Linux/Windows. No support for OSX.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void SplitContainer.set_TabStop (bool)</td>
+              <td>Stub, never called</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void SplitContainer.set_TabStop (bool)</td>
+              <td>Stub, never called</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void SplitContainer.set_TabStop (bool)</td>
+              <td>Stub, never called</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void SplitContainer.set_TabStop (bool)</td>
+              <td>Stub, never called</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser.set_IsWebBrowserContextMenuEnabled (bool)</td>
+              <td>Stub, not implemented</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void WebBrowser.set_WebBrowserShortcutsEnabled (bool)</td>
+              <td>Stub, not implemented</td>
+              </tr>
+              <tr>
+              <td>bool AddNewTab (string, bool, MyCommon/TabUsageType, ListElement)</td>
+              <td>void ComboBox.set_AutoCompleteMode (AutoCompleteMode)</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void ShowPreviousWindow ()</td>
+              <td colspan='2'>IntPtr Process.get_MainWindowHandle ()</td>
+              </tr>
+              <tr>
+              <td>void ShowPreviousWindow ()</td>
+              <td colspan='2'>IntPtr Process.get_MainWindowHandle ()</td>
+              </tr>
+              <tr>
+              <td>bool Equals (Object)</td>
+              <td>bool Type.op_Inequality (Type, Type)</td>
+              <td>Implement it properly once 4.0 impl details are known.</td>
+              </tr>
+              <tr>
+              <td>bool Equals (Object)</td>
+              <td>bool Type.op_Inequality (Type, Type)</td>
+              <td>Implement it properly once 4.0 impl details are known.</td>
+              </tr>
+              <tr>
+              <td>void .ctor ()</td>
+              <td>void WebBrowser..ctor ()</td>
+              <td>WebBrowser control is only supported on Linux/Windows. No support for OSX.</td>
+              </tr>
+              <tr>
+              <td>void .ctor ()</td>
+              <td>void WebBrowser.set_IsWebBrowserContextMenuEnabled (bool)</td>
+              <td>Stub, not implemented</td>
+              </tr>
+              <tr>
+              <td>void .ctor ()</td>
+              <td>void WebBrowser.set_WebBrowserShortcutsEnabled (bool)</td>
+              <td>Stub, not implemented</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void TextBox.set_AutoCompleteMode (AutoCompleteMode)</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void TextBox.set_AutoCompleteSource (AutoCompleteSource)</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void TextBox.set_AutoCompleteMode (AutoCompleteMode)</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void TextBox.set_AutoCompleteSource (AutoCompleteSource)</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void FilterDialog_Shown (Object, EventArgs)</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void FilterDialog_Shown (Object, EventArgs)</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void FilterDialog_Shown (Object, EventArgs)</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void FilterDialog_Shown (Object, EventArgs)</td>
+              <td>AutoCompleteStringCollection TextBox.get_AutoCompleteCustomSource ()</td>
+              <td>AutoCompletion algorithm is currently not implemented.</td>
+              </tr>
+              <tr>
+              <td>void InitializeComponent ()</td>
+              <td>void SplitContainer.set_TabStop (bool)</td>
+              <td>Stub, never called</td>
+              </tr>
+              <tr class='inner-header'>
+              <td>Calling Method</td>
+              <td>P/Invoke Method</td>
+              <td>P/Invoke Library</td>
+              </tr>
+              <tr>
+              <td>void WakeupWindow (IntPtr)</td>
+              <td>bool Win32Api.IsIconic (IntPtr)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>void WakeupWindow (IntPtr)</td>
+              <td>bool Win32Api.ShowWindowAsync (IntPtr, int)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>void WakeupWindow (IntPtr)</td>
+              <td>bool Win32Api.SetForegroundWindow (IntPtr)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.FindWindow (string, string)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.FindWindowEx (IntPtr, IntPtr, string, string)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.FindWindowEx (IntPtr, IntPtr, string, string)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.FindWindowEx (IntPtr, IntPtr, string, string)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>int Win32Api.GetWindowThreadProcessId (IntPtr, Int32&)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.OpenProcess (Win32Api/ProcessAccess, bool, int)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.VirtualAllocEx (IntPtr, IntPtr, IntPtr, Win32Api/AllocationTypes, Win32Api/MemoryProtectionTypes)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.VirtualAllocEx (IntPtr, IntPtr, IntPtr, Win32Api/AllocationTypes, Win32Api/MemoryProtectionTypes)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.VirtualAllocEx (IntPtr, IntPtr, IntPtr, Win32Api/AllocationTypes, Win32Api/MemoryProtectionTypes)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.SendMessage (IntPtr, int, IntPtr, IntPtr)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.SendMessage (IntPtr, int, IntPtr, IntPtr)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.ReadProcessMemory (IntPtr, IntPtr, IntPtr, IntPtr, Int32&)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.WriteProcessMemory (IntPtr, IntPtr, Win32Api/TBBUTTONINFO&, IntPtr, Int32&)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>IntPtr Win32Api.SendMessage (IntPtr, int, IntPtr, IntPtr)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.ReadProcessMemory (IntPtr, IntPtr, IntPtr, IntPtr, Int32&)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.ReadProcessMemory (IntPtr, IntPtr, IntPtr, IntPtr, Int32&)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.ReadProcessMemory (IntPtr, IntPtr, IntPtr, IntPtr, Int32&)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.SetForegroundWindow (IntPtr)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.PostMessage (IntPtr, uint, IntPtr, IntPtr)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.PostMessage (IntPtr, uint, IntPtr, IntPtr)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.VirtualFreeEx (IntPtr, IntPtr, IntPtr, Win32Api/MemoryFreeTypes)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.VirtualFreeEx (IntPtr, IntPtr, IntPtr, Win32Api/MemoryFreeTypes)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.VirtualFreeEx (IntPtr, IntPtr, IntPtr, Win32Api/MemoryFreeTypes)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool ClickTasktrayIcon (string)</td>
+              <td>bool Win32Api.CloseHandle (IntPtr)</td>
+              <td>kernel32.dll</td>
+              </tr>
+              <tr>
+              <td>bool FlashMyWindow (IntPtr, Win32Api/FlashSpecification, int)</td>
+              <td>bool Win32Api.FlashWindowEx (Win32Api/FLASHWINFO&)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>bool IsScreenSaverRunning ()</td>
+              <td>int Win32Api.SystemParametersInfo (int, int, Boolean&, int)</td>
+              <td>user32</td>
+              </tr>
+              <tr>
+              <td>int RegisterGlobalHotKey (int, int, Form)</td>
+              <td>UInt16 Win32Api.GlobalAddAtom (string)</td>
+              <td>kernel32</td>
+              </tr>
+              <tr>
+              <td>int RegisterGlobalHotKey (int, int, Form)</td>
+              <td>int Win32Api.RegisterHotKey (IntPtr, int, int, int)</td>
+              <td>user32</td>
+              </tr>
+              <tr>
+              <td>void UnregisterGlobalHotKey (UInt16, Form)</td>
+              <td>int Win32Api.UnregisterHotKey (IntPtr, int)</td>
+              <td>user32</td>
+              </tr>
+              <tr>
+              <td>void UnregisterGlobalHotKey (UInt16, Form)</td>
+              <td>UInt16 Win32Api.GlobalDeleteAtom (UInt16)</td>
+              <td>kernel32</td>
+              </tr>
+              <tr>
+              <td>void RefreshProxySettings (string)</td>
+              <td>bool Win32Api.InternetSetOption (IntPtr, int, IntPtr, int)</td>
+              <td>wininet.dll</td>
+              </tr>
+              <tr>
+              <td>void RefreshProxyAccount (string, string)</td>
+              <td>bool Win32Api.InternetSetOption (IntPtr, int, IntPtr, int)</td>
+              <td>wininet.dll</td>
+              </tr>
+              <tr>
+              <td>void RefreshProxyAccount (string, string)</td>
+              <td>bool Win32Api.InternetSetOption (IntPtr, int, IntPtr, int)</td>
+              <td>wininet.dll</td>
+              </tr>
+              <tr>
+              <td>void RefreshProxyAccount (string, string)</td>
+              <td>bool Win32Api.InternetSetOption (IntPtr, int, IntPtr, int)</td>
+              <td>wininet.dll</td>
+              </tr>
+              <tr>
+              <td>void RefreshProxyAccount (string, string)</td>
+              <td>bool Win32Api.InternetSetOption (IntPtr, int, IntPtr, int)</td>
+              <td>wininet.dll</td>
+              </tr>
+              <tr>
+              <td>void .ctor ()</td>
+              <td>int ShieldIcon.SHGetStockIconInfo (int, uint, ShieldIcon/SHSTOCKICONINFO&)</td>
+              <td>shell32.dll</td>
+              </tr>
+              <tr>
+              <td>void WndProc (Message&)</td>
+              <td>bool Win32Api.ValidateRect (IntPtr, IntPtr)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>void WndProc (Message&)</td>
+              <td>int DetailsListView.GetScrollInfo (IntPtr, DetailsListView/ScrollBarDirection, DetailsListView/SCROLLINFO&)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>void WndProc (Message&)</td>
+              <td>int DetailsListView.GetScrollInfo (IntPtr, DetailsListView/ScrollBarDirection, DetailsListView/SCROLLINFO&)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>void WndProc (Message&)</td>
+              <td>int DetailsListView.GetScrollInfo (IntPtr, DetailsListView/ScrollBarDirection, DetailsListView/SCROLLINFO&)</td>
+              <td>user32.dll</td>
+              </tr>
+              <tr>
+              <td>void WndProc (Message&)</td>
+              <td>int DetailsListView.GetScrollInfo (IntPtr, DetailsListView/ScrollBarDirection, DetailsListView/SCROLLINFO&)</td>
+              <td>user32.dll</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class='tabletotal'>
+          <td></td>
+          <td></td>
+          <td>Totals</td>
+          <td></td>
+          <td>10</td>
+          <td>3</td>
+          <td>44</td>
+          <td>44</td>
+        </tr>
+      </tfoot>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report version="1.0">
+  <metadata>
+    <definitions>Mono 2.8 (4.0 Profile)</definitions>
+    <momaversion>2.0.0.0</momaversion>
+    <date>2012-04-14 11:36:56Z</date>
+    <name />
+    <email />
+    <homepage />
+    <organization />
+    <comments />
+    <apptype />
+  </metadata>
+  <assemblies>
+    <assembly name="OpenTween.exe" version="0.1.0.0" runtime="2.0" todo="44" niex="3" miss="10" pinv="44">
+      <issue type="todo">
+        <class>Win32Api</class>
+        <caller>void RefreshProxySettings(string)</caller>
+        <method>IWebProxy GetSystemWebProxy()</method>
+        <raw>System.Net.IWebProxy System.Net.WebRequest::GetSystemWebProxy()</raw>
+        <data>Look in other places for proxy config info</data>
+      </issue>
+      <issue type="todo">
+        <class>MyCommon</class>
+        <caller>bool IsNetworkAvailable()</caller>
+        <method>bool GetIsNetworkAvailable()</method>
+        <raw>System.Boolean System.Net.NetworkInformation.NetworkInterface::GetIsNetworkAvailable()</raw>
+        <data>Always returns true</data>
+      </issue>
+      <issue type="todo">
+        <class>HttpVarious</class>
+        <caller>Image CheckValidImage(Image, int, int)</caller>
+        <method>void set_PixelOffsetMode(PixelOffsetMode)</method>
+        <raw>System.Void System.Drawing.Graphics::set_PixelOffsetMode(System.Drawing.Drawing2D.PixelOffsetMode)</raw>
+        <data>This property does not do anything when used with libgdiplus.</data>
+      </issue>
+      <issue type="todo">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void .ctor()</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::.ctor()</raw>
+        <data>WebBrowser control is only supported on Linux/Windows. No support for OSX.</data>
+      </issue>
+      <issue type="todo">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void .ctor()</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::.ctor()</raw>
+        <data>WebBrowser control is only supported on Linux/Windows. No support for OSX.</data>
+      </issue>
+      <issue type="todo">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_IsWebBrowserContextMenuEnabled(bool)</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::set_IsWebBrowserContextMenuEnabled(System.Boolean)</raw>
+        <data>Stub, not implemented</data>
+      </issue>
+      <issue type="todo">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_WebBrowserShortcutsEnabled(bool)</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::set_WebBrowserShortcutsEnabled(System.Boolean)</raw>
+        <data>Stub, not implemented</data>
+      </issue>
+      <issue type="todo">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_IsWebBrowserContextMenuEnabled(bool)</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::set_IsWebBrowserContextMenuEnabled(System.Boolean)</raw>
+        <data>Stub, not implemented</data>
+      </issue>
+      <issue type="todo">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_WebBrowserShortcutsEnabled(bool)</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::set_WebBrowserShortcutsEnabled(System.Boolean)</raw>
+        <data>Stub, not implemented</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>void AddItem(string)</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>void AddItem(string)</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>String&gt; GetItemList()</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>String&gt; GetItemList()</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>int get_ItemCount()</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>void TextId_KeyDown(Object, KeyEventArgs)</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>void TextId_KeyDown(Object, KeyEventArgs)</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_AutoCompleteMode(AutoCompleteMode)</method>
+        <raw>System.Void System.Windows.Forms.TextBox::set_AutoCompleteMode(System.Windows.Forms.AutoCompleteMode)</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_AutoCompleteSource(AutoCompleteSource)</method>
+        <raw>System.Void System.Windows.Forms.TextBox::set_AutoCompleteSource(System.Windows.Forms.AutoCompleteSource)</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AtIdSupplement</class>
+        <caller>void .ctor(String&gt;, string)</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AuthBrowser</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void .ctor()</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::.ctor()</raw>
+        <data>WebBrowser control is only supported on Linux/Windows. No support for OSX.</data>
+      </issue>
+      <issue type="todo">
+        <class>TweenMain</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void .ctor()</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::.ctor()</raw>
+        <data>WebBrowser control is only supported on Linux/Windows. No support for OSX.</data>
+      </issue>
+      <issue type="todo">
+        <class>TweenMain</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.SplitContainer::set_TabStop(System.Boolean)</raw>
+        <data>Stub, never called</data>
+      </issue>
+      <issue type="todo">
+        <class>TweenMain</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.SplitContainer::set_TabStop(System.Boolean)</raw>
+        <data>Stub, never called</data>
+      </issue>
+      <issue type="todo">
+        <class>TweenMain</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.SplitContainer::set_TabStop(System.Boolean)</raw>
+        <data>Stub, never called</data>
+      </issue>
+      <issue type="todo">
+        <class>TweenMain</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.SplitContainer::set_TabStop(System.Boolean)</raw>
+        <data>Stub, never called</data>
+      </issue>
+      <issue type="todo">
+        <class>TweenMain</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_IsWebBrowserContextMenuEnabled(bool)</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::set_IsWebBrowserContextMenuEnabled(System.Boolean)</raw>
+        <data>Stub, not implemented</data>
+      </issue>
+      <issue type="todo">
+        <class>TweenMain</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_WebBrowserShortcutsEnabled(bool)</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::set_WebBrowserShortcutsEnabled(System.Boolean)</raw>
+        <data>Stub, not implemented</data>
+      </issue>
+      <issue type="todo">
+        <class>TweenMain</class>
+        <caller>bool AddNewTab(string, bool, MyCommon/TabUsageType, ListElement)</caller>
+        <method>void set_AutoCompleteMode(AutoCompleteMode)</method>
+        <raw>System.Void System.Windows.Forms.ComboBox::set_AutoCompleteMode(System.Windows.Forms.AutoCompleteMode)</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>MyApplication</class>
+        <caller>void ShowPreviousWindow()</caller>
+        <method>IntPtr get_MainWindowHandle()</method>
+        <raw>System.IntPtr System.Diagnostics.Process::get_MainWindowHandle()</raw>
+        <data />
+      </issue>
+      <issue type="todo">
+        <class>MyApplication</class>
+        <caller>void ShowPreviousWindow()</caller>
+        <method>IntPtr get_MainWindowHandle()</method>
+        <raw>System.IntPtr System.Diagnostics.Process::get_MainWindowHandle()</raw>
+        <data />
+      </issue>
+      <issue type="todo">
+        <class>PostClass</class>
+        <caller>bool Equals(Object)</caller>
+        <method>bool op_Inequality(Type, Type)</method>
+        <raw>System.Boolean System.Type::op_Inequality(System.Type,System.Type)</raw>
+        <data>Implement it properly once 4.0 impl details are known.</data>
+      </issue>
+      <issue type="todo">
+        <class>FiltersClass</class>
+        <caller>bool Equals(Object)</caller>
+        <method>bool op_Inequality(Type, Type)</method>
+        <raw>System.Boolean System.Type::op_Inequality(System.Type,System.Type)</raw>
+        <data>Implement it properly once 4.0 impl details are known.</data>
+      </issue>
+      <issue type="todo">
+        <class>AdsBrowser</class>
+        <caller>void .ctor()</caller>
+        <method>void .ctor()</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::.ctor()</raw>
+        <data>WebBrowser control is only supported on Linux/Windows. No support for OSX.</data>
+      </issue>
+      <issue type="todo">
+        <class>AdsBrowser</class>
+        <caller>void .ctor()</caller>
+        <method>void set_IsWebBrowserContextMenuEnabled(bool)</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::set_IsWebBrowserContextMenuEnabled(System.Boolean)</raw>
+        <data>Stub, not implemented</data>
+      </issue>
+      <issue type="todo">
+        <class>AdsBrowser</class>
+        <caller>void .ctor()</caller>
+        <method>void set_WebBrowserShortcutsEnabled(bool)</method>
+        <raw>System.Void System.Windows.Forms.WebBrowser::set_WebBrowserShortcutsEnabled(System.Boolean)</raw>
+        <data>Stub, not implemented</data>
+      </issue>
+      <issue type="todo">
+        <class>FilterDialog</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_AutoCompleteMode(AutoCompleteMode)</method>
+        <raw>System.Void System.Windows.Forms.TextBox::set_AutoCompleteMode(System.Windows.Forms.AutoCompleteMode)</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>FilterDialog</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_AutoCompleteSource(AutoCompleteSource)</method>
+        <raw>System.Void System.Windows.Forms.TextBox::set_AutoCompleteSource(System.Windows.Forms.AutoCompleteSource)</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>FilterDialog</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_AutoCompleteMode(AutoCompleteMode)</method>
+        <raw>System.Void System.Windows.Forms.TextBox::set_AutoCompleteMode(System.Windows.Forms.AutoCompleteMode)</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>FilterDialog</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_AutoCompleteSource(AutoCompleteSource)</method>
+        <raw>System.Void System.Windows.Forms.TextBox::set_AutoCompleteSource(System.Windows.Forms.AutoCompleteSource)</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>FilterDialog</class>
+        <caller>void FilterDialog_Shown(Object, EventArgs)</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>FilterDialog</class>
+        <caller>void FilterDialog_Shown(Object, EventArgs)</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>FilterDialog</class>
+        <caller>void FilterDialog_Shown(Object, EventArgs)</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>FilterDialog</class>
+        <caller>void FilterDialog_Shown(Object, EventArgs)</caller>
+        <method>AutoCompleteStringCollection get_AutoCompleteCustomSource()</method>
+        <raw>System.Windows.Forms.AutoCompleteStringCollection System.Windows.Forms.TextBox::get_AutoCompleteCustomSource()</raw>
+        <data>AutoCompletion algorithm is currently not implemented.</data>
+      </issue>
+      <issue type="todo">
+        <class>AppendSettingDialog</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.SplitContainer::set_TabStop(System.Boolean)</raw>
+        <data>Stub, never called</data>
+      </issue>
+      <issue type="niex">
+        <class>ShowUserInfo</class>
+        <caller>void SelectAllToolStripMenuItem_Click(Object, EventArgs)</caller>
+        <method>void ExecCommand(string, bool, Object)</method>
+        <raw>System.Void System.Windows.Forms.HtmlDocument::ExecCommand(System.String,System.Boolean,System.Object)</raw>
+      </issue>
+      <issue type="niex">
+        <class>TweenMain</class>
+        <caller>bool CommonKeyDown(Keys, TweenMain/FocusedControl, TweenMain/ModifierState)</caller>
+        <method>void ExecCommand(string, bool, Object)</method>
+        <raw>System.Void System.Windows.Forms.HtmlDocument::ExecCommand(System.String,System.Boolean,System.Object)</raw>
+      </issue>
+      <issue type="niex">
+        <class>TweenMain</class>
+        <caller>void SelectionAllContextMenuItem_Click(Object, EventArgs)</caller>
+        <method>void ExecCommand(string, bool, Object)</method>
+        <raw>System.Void System.Windows.Forms.HtmlDocument::ExecCommand(System.String,System.Boolean,System.Object)</raw>
+      </issue>
+      <issue type="miss">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="miss">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="miss">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="miss">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="miss">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="miss">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="miss">
+        <class>ShowUserInfo</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="miss">
+        <class>TweenMain</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="miss">
+        <class>TweenMain</class>
+        <caller>void DispSelectedPost(bool)</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="miss">
+        <class>ListManage</class>
+        <caller>void InitializeComponent()</caller>
+        <method>void set_TabStop(bool)</method>
+        <raw>System.Void System.Windows.Forms.LinkLabel::set_TabStop(System.Boolean)</raw>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void WakeupWindow(IntPtr)</caller>
+        <method>bool IsIconic(IntPtr)</method>
+        <raw>System.Boolean OpenTween.Win32Api::IsIconic(System.IntPtr)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void WakeupWindow(IntPtr)</caller>
+        <method>bool ShowWindowAsync(IntPtr, int)</method>
+        <raw>System.Boolean OpenTween.Win32Api::ShowWindowAsync(System.IntPtr,System.Int32)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void WakeupWindow(IntPtr)</caller>
+        <method>bool SetForegroundWindow(IntPtr)</method>
+        <raw>System.Boolean OpenTween.Win32Api::SetForegroundWindow(System.IntPtr)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr FindWindow(string, string)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::FindWindow(System.String,System.String)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr FindWindowEx(IntPtr, IntPtr, string, string)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::FindWindowEx(System.IntPtr,System.IntPtr,System.String,System.String)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr FindWindowEx(IntPtr, IntPtr, string, string)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::FindWindowEx(System.IntPtr,System.IntPtr,System.String,System.String)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr FindWindowEx(IntPtr, IntPtr, string, string)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::FindWindowEx(System.IntPtr,System.IntPtr,System.String,System.String)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>int GetWindowThreadProcessId(IntPtr, Int32&amp;)</method>
+        <raw>System.Int32 OpenTween.Win32Api::GetWindowThreadProcessId(System.IntPtr,System.Int32&amp;)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr OpenProcess(Win32Api/ProcessAccess, bool, int)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::OpenProcess(OpenTween.Win32Api/ProcessAccess,System.Boolean,System.Int32)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr VirtualAllocEx(IntPtr, IntPtr, IntPtr, Win32Api/AllocationTypes, Win32Api/MemoryProtectionTypes)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::VirtualAllocEx(System.IntPtr,System.IntPtr,System.IntPtr,OpenTween.Win32Api/AllocationTypes,OpenTween.Win32Api/MemoryProtectionTypes)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr VirtualAllocEx(IntPtr, IntPtr, IntPtr, Win32Api/AllocationTypes, Win32Api/MemoryProtectionTypes)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::VirtualAllocEx(System.IntPtr,System.IntPtr,System.IntPtr,OpenTween.Win32Api/AllocationTypes,OpenTween.Win32Api/MemoryProtectionTypes)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr VirtualAllocEx(IntPtr, IntPtr, IntPtr, Win32Api/AllocationTypes, Win32Api/MemoryProtectionTypes)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::VirtualAllocEx(System.IntPtr,System.IntPtr,System.IntPtr,OpenTween.Win32Api/AllocationTypes,OpenTween.Win32Api/MemoryProtectionTypes)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr SendMessage(IntPtr, int, IntPtr, IntPtr)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::SendMessage(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr SendMessage(IntPtr, int, IntPtr, IntPtr)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::SendMessage(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool ReadProcessMemory(IntPtr, IntPtr, IntPtr, IntPtr, Int32&amp;)</method>
+        <raw>System.Boolean OpenTween.Win32Api::ReadProcessMemory(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&amp;)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool WriteProcessMemory(IntPtr, IntPtr, Win32Api/TBBUTTONINFO&amp;, IntPtr, Int32&amp;)</method>
+        <raw>System.Boolean OpenTween.Win32Api::WriteProcessMemory(System.IntPtr,System.IntPtr,OpenTween.Win32Api/TBBUTTONINFO&amp;,System.IntPtr,System.Int32&amp;)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>IntPtr SendMessage(IntPtr, int, IntPtr, IntPtr)</method>
+        <raw>System.IntPtr OpenTween.Win32Api::SendMessage(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool ReadProcessMemory(IntPtr, IntPtr, IntPtr, IntPtr, Int32&amp;)</method>
+        <raw>System.Boolean OpenTween.Win32Api::ReadProcessMemory(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&amp;)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool ReadProcessMemory(IntPtr, IntPtr, IntPtr, IntPtr, Int32&amp;)</method>
+        <raw>System.Boolean OpenTween.Win32Api::ReadProcessMemory(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&amp;)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool ReadProcessMemory(IntPtr, IntPtr, IntPtr, IntPtr, Int32&amp;)</method>
+        <raw>System.Boolean OpenTween.Win32Api::ReadProcessMemory(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&amp;)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool SetForegroundWindow(IntPtr)</method>
+        <raw>System.Boolean OpenTween.Win32Api::SetForegroundWindow(System.IntPtr)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool PostMessage(IntPtr, uint, IntPtr, IntPtr)</method>
+        <raw>System.Boolean OpenTween.Win32Api::PostMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool PostMessage(IntPtr, uint, IntPtr, IntPtr)</method>
+        <raw>System.Boolean OpenTween.Win32Api::PostMessage(System.IntPtr,System.UInt32,System.IntPtr,System.IntPtr)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool VirtualFreeEx(IntPtr, IntPtr, IntPtr, Win32Api/MemoryFreeTypes)</method>
+        <raw>System.Boolean OpenTween.Win32Api::VirtualFreeEx(System.IntPtr,System.IntPtr,System.IntPtr,OpenTween.Win32Api/MemoryFreeTypes)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool VirtualFreeEx(IntPtr, IntPtr, IntPtr, Win32Api/MemoryFreeTypes)</method>
+        <raw>System.Boolean OpenTween.Win32Api::VirtualFreeEx(System.IntPtr,System.IntPtr,System.IntPtr,OpenTween.Win32Api/MemoryFreeTypes)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool VirtualFreeEx(IntPtr, IntPtr, IntPtr, Win32Api/MemoryFreeTypes)</method>
+        <raw>System.Boolean OpenTween.Win32Api::VirtualFreeEx(System.IntPtr,System.IntPtr,System.IntPtr,OpenTween.Win32Api/MemoryFreeTypes)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool ClickTasktrayIcon(string)</caller>
+        <method>bool CloseHandle(IntPtr)</method>
+        <raw>System.Boolean OpenTween.Win32Api::CloseHandle(System.IntPtr)</raw>
+        <data>kernel32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool FlashMyWindow(IntPtr, Win32Api/FlashSpecification, int)</caller>
+        <method>bool FlashWindowEx(Win32Api/FLASHWINFO&amp;)</method>
+        <raw>System.Boolean OpenTween.Win32Api::FlashWindowEx(OpenTween.Win32Api/FLASHWINFO&amp;)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>bool IsScreenSaverRunning()</caller>
+        <method>int SystemParametersInfo(int, int, Boolean&amp;, int)</method>
+        <raw>System.Int32 OpenTween.Win32Api::SystemParametersInfo(System.Int32,System.Int32,System.Boolean&amp;,System.Int32)</raw>
+        <data>user32</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>int RegisterGlobalHotKey(int, int, Form)</caller>
+        <method>UInt16 GlobalAddAtom(string)</method>
+        <raw>System.UInt16 OpenTween.Win32Api::GlobalAddAtom(System.String)</raw>
+        <data>kernel32</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>int RegisterGlobalHotKey(int, int, Form)</caller>
+        <method>int RegisterHotKey(IntPtr, int, int, int)</method>
+        <raw>System.Int32 OpenTween.Win32Api::RegisterHotKey(System.IntPtr,System.Int32,System.Int32,System.Int32)</raw>
+        <data>user32</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void UnregisterGlobalHotKey(UInt16, Form)</caller>
+        <method>int UnregisterHotKey(IntPtr, int)</method>
+        <raw>System.Int32 OpenTween.Win32Api::UnregisterHotKey(System.IntPtr,System.Int32)</raw>
+        <data>user32</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void UnregisterGlobalHotKey(UInt16, Form)</caller>
+        <method>UInt16 GlobalDeleteAtom(UInt16)</method>
+        <raw>System.UInt16 OpenTween.Win32Api::GlobalDeleteAtom(System.UInt16)</raw>
+        <data>kernel32</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void RefreshProxySettings(string)</caller>
+        <method>bool InternetSetOption(IntPtr, int, IntPtr, int)</method>
+        <raw>System.Boolean OpenTween.Win32Api::InternetSetOption(System.IntPtr,System.Int32,System.IntPtr,System.Int32)</raw>
+        <data>wininet.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void RefreshProxyAccount(string, string)</caller>
+        <method>bool InternetSetOption(IntPtr, int, IntPtr, int)</method>
+        <raw>System.Boolean OpenTween.Win32Api::InternetSetOption(System.IntPtr,System.Int32,System.IntPtr,System.Int32)</raw>
+        <data>wininet.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void RefreshProxyAccount(string, string)</caller>
+        <method>bool InternetSetOption(IntPtr, int, IntPtr, int)</method>
+        <raw>System.Boolean OpenTween.Win32Api::InternetSetOption(System.IntPtr,System.Int32,System.IntPtr,System.Int32)</raw>
+        <data>wininet.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void RefreshProxyAccount(string, string)</caller>
+        <method>bool InternetSetOption(IntPtr, int, IntPtr, int)</method>
+        <raw>System.Boolean OpenTween.Win32Api::InternetSetOption(System.IntPtr,System.Int32,System.IntPtr,System.Int32)</raw>
+        <data>wininet.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>Win32Api</class>
+        <caller>void RefreshProxyAccount(string, string)</caller>
+        <method>bool InternetSetOption(IntPtr, int, IntPtr, int)</method>
+        <raw>System.Boolean OpenTween.Win32Api::InternetSetOption(System.IntPtr,System.Int32,System.IntPtr,System.Int32)</raw>
+        <data>wininet.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>ShieldIcon</class>
+        <caller>void .ctor()</caller>
+        <method>int SHGetStockIconInfo(int, uint, ShieldIcon/SHSTOCKICONINFO&amp;)</method>
+        <raw>System.Int32 OpenTween.ShieldIcon::SHGetStockIconInfo(System.Int32,System.UInt32,OpenTween.ShieldIcon/SHSTOCKICONINFO&amp;)</raw>
+        <data>shell32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>DetailsListView</class>
+        <caller>void WndProc(Message&amp;)</caller>
+        <method>bool ValidateRect(IntPtr, IntPtr)</method>
+        <raw>System.Boolean OpenTween.Win32Api::ValidateRect(System.IntPtr,System.IntPtr)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>DetailsListView</class>
+        <caller>void WndProc(Message&amp;)</caller>
+        <method>int GetScrollInfo(IntPtr, DetailsListView/ScrollBarDirection, DetailsListView/SCROLLINFO&amp;)</method>
+        <raw>System.Int32 OpenTween.OpenTweenCustomControl.DetailsListView::GetScrollInfo(System.IntPtr,OpenTween.OpenTweenCustomControl.DetailsListView/ScrollBarDirection,OpenTween.OpenTweenCustomControl.DetailsListView/SCROLLINFO&amp;)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>DetailsListView</class>
+        <caller>void WndProc(Message&amp;)</caller>
+        <method>int GetScrollInfo(IntPtr, DetailsListView/ScrollBarDirection, DetailsListView/SCROLLINFO&amp;)</method>
+        <raw>System.Int32 OpenTween.OpenTweenCustomControl.DetailsListView::GetScrollInfo(System.IntPtr,OpenTween.OpenTweenCustomControl.DetailsListView/ScrollBarDirection,OpenTween.OpenTweenCustomControl.DetailsListView/SCROLLINFO&amp;)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>DetailsListView</class>
+        <caller>void WndProc(Message&amp;)</caller>
+        <method>int GetScrollInfo(IntPtr, DetailsListView/ScrollBarDirection, DetailsListView/SCROLLINFO&amp;)</method>
+        <raw>System.Int32 OpenTween.OpenTweenCustomControl.DetailsListView::GetScrollInfo(System.IntPtr,OpenTween.OpenTweenCustomControl.DetailsListView/ScrollBarDirection,OpenTween.OpenTweenCustomControl.DetailsListView/SCROLLINFO&amp;)</raw>
+        <data>user32.dll</data>
+      </issue>
+      <issue type="pinv">
+        <class>DetailsListView</class>
+        <caller>void WndProc(Message&amp;)</caller>
+        <method>int GetScrollInfo(IntPtr, DetailsListView/ScrollBarDirection, DetailsListView/SCROLLINFO&amp;)</method>
+        <raw>System.Int32 OpenTween.OpenTweenCustomControl.DetailsListView::GetScrollInfo(System.IntPtr,OpenTween.OpenTweenCustomControl.DetailsListView/ScrollBarDirection,OpenTween.OpenTweenCustomControl.DetailsListView/SCROLLINFO&amp;)</raw>
+        <data>user32.dll</data>
+      </issue>
+    </assembly>
+  </assemblies>
+</report>

@@ -12,3 +12,21 @@ from = '/'
 to = 'https://osdn.net/projects/opentween/'
 status = 302
 force = true
+
+[[redirects]]
+from = 'https://opentween.netlify.com/*'
+to = 'https://www.opentween.org/:splat'
+status = 301
+force = true
+
+[[redirects]]
+from = 'https://opentween.jp/*'
+to = 'https://www.opentween.org/:splat'
+status = 301
+force = true
+
+[[redirects]]
+from = 'https://www.opentween.jp/*'
+to = 'https://www.opentween.org/:splat'
+status = 301
+force = true

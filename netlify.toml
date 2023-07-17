@@ -15,6 +15,6 @@ force = true
 
 [[redirects]]
 from = '/'
-to = 'https://osdn.net/projects/opentween/'
+to = 'https://github.com/opentween/OpenTween'
 status = 302
 force = true

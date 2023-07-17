@@ -1,5 +1,5 @@
 3.6.2.0
-https://osdn.jp/projects/opentween/releases/p12655
+https://github.com/opentween/OpenTween/releases
 
 ==== Ver 3.6.2(2023/07/07)
  * FIX: リプライ制限されたツイートのRTがリストのタイムラインに含まれているとエラーになる不具合を修正

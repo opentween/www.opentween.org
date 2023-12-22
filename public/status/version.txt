@@ -1,6 +1,5 @@
-3.10.0.0
+3.10.1.0
 https://github.com/opentween/OpenTween/releases
 
-==== Ver 3.10.0(2023/12/16)
- * NEW: graphqlエンドポイント経由で取得した引用ツイートの表示に対応
- * FIX: APIリクエストがタイムアウトした場合のキャンセル処理を改善
+==== Ver 3.10.1(2023/12/23)
+ * FIX: OAuth 1.0a によるAPIアクセスに失敗する不具合を修正
